@@ -30,6 +30,6 @@ def solve(data: str):
 
 
 if __name__ == "__main__":
-    sys.stdin = open("/pythonalgorithm_formac/섹션 5/3. 후위표기식 만들기/in1.txt", "rt")
+    sys.stdin = open("../pythonalgorithm_formac/섹션 5/3. 후위표기식 만들기/in1.txt", "rt")
     middle_equation = input()
     print(solve(middle_equation))
